@@ -10,6 +10,9 @@ savings = (savings_percent/100) * salary
 rent = (rent_percent/100) * salary
 electrecity = (electrecity_percent/100) * salary
 
+total_expense = savings + rent + electrecity
+remainder = salary - total_expense
+
 print(salary)
 print(month)
 print(savings_percent)
@@ -18,3 +21,5 @@ print(electrecity_percent)
 print(savings)
 print(rent)
 print(electrecity)
+print(total_expense)
+print(remainder)
