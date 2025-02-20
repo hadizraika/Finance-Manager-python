@@ -5,6 +5,7 @@ savings_percent = float(input("Enter the percentage of salary allocated to savin
 rent_percent = float(input("Enter the percentage of salary allocated to rent: "))
 electrecity_percent = float(input("Enter the percentage of salary allocated to electrecity: "))
 
+
 #calculating
 savings = (savings_percent/100) * salary
 rent = (rent_percent/100) * salary
@@ -22,8 +23,7 @@ additional_saving = 50
 percent_additional_saving =  additional_saving / savings
 
 
-print(salary)
-print(month)
+print(f"This is the salary:{salary:.2f}$ for this Month:{month}")
 print(savings_percent)
 print(rent_percent)
 print(electrecity_percent)
