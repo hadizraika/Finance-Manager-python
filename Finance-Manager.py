@@ -18,6 +18,8 @@ yearly_electrecity = electrecity * 12
 
 salary_squared = salary ** 2
 
+additional_saving = 50
+percent_additional_saving =  additional_saving / savings
 
 
 print(salary)
@@ -33,3 +35,4 @@ print(remainder)
 print(yearly_rent)
 print(yearly_electrecity)
 print(salary_squared)
+print(percent_additional_saving)
