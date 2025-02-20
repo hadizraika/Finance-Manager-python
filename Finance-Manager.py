@@ -16,6 +16,10 @@ remainder = salary - total_expense
 yearly_rent = rent * 12
 yearly_electrecity = electrecity * 12
 
+salary_squared = salary ** 2
+
+
+
 print(salary)
 print(month)
 print(savings_percent)
@@ -28,3 +32,4 @@ print(total_expense)
 print(remainder)
 print(yearly_rent)
 print(yearly_electrecity)
+print(salary_squared)
