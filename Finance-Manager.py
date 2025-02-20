@@ -23,7 +23,7 @@ additional_saving = 50
 percent_additional_saving =  additional_saving / savings
 
 print("================ Financial Management Program ================")
-print(f"This is the salary: {salary:.2f}$ for this Month: {month}")
+print(f" / This is the salary: {salary:.2f}$ for this Month: {month} \ ")
 print(f"Savings: {savings}$")
 print(f"Rent: {rent:.2f}$")
 print(f"Electrecity: {electrecity:.2f}$")
