@@ -13,6 +13,9 @@ electrecity = (electrecity_percent/100) * salary
 total_expense = savings + rent + electrecity
 remainder = salary - total_expense
 
+yearly_rent = rent * 12
+yearly_electrecity = electrecity * 12
+
 print(salary)
 print(month)
 print(savings_percent)
